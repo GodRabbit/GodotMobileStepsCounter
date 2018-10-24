@@ -40,6 +40,7 @@ extends Node
 #3). adjust the the step_threshold value for your needs. this is what controls the sensitivity.
 #higher values are are less sensitive. e.g. values below 25, will most likely count every small movement as a step made
 #while values higher than 1 won't count any steps on my device.
+#
 
 #emitted everytime the class sense a step was made
 signal steps_updated
