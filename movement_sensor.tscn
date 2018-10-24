@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://movement_sensor.gd" type="Script" id=1]
+
+[node name="movement_sensor" type="Node" index="0"]
+
+script = ExtResource( 1 )
+is_monitoring = true
+step_threshold = 0.25
+
+
