@@ -33,5 +33,5 @@ note that the class is updated every tick anyways.
 if you want to stop monitoring the steps, use the function stop_monitoring()
 
 3). adjust the the step_threshold value for your needs. This is what controls the sensitivity.
-Higher values are are less sensitive. e.g. values below 25, will most likely count every small movement as a step made
+Higher values are are less sensitive. e.g. values below 0.25, will most likely count every small movement as a step made
 while values higher than 1 won't count any steps on my device.
